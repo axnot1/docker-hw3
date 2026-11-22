@@ -7,6 +7,7 @@ docker compose up -d --build
 curl http://localhost:8080/
 curl -X POST http://localhost:8080/increment
 docker compose ps
+
 Настройки в файле .env.example:
 HOST_PORT=8080
 GREETING=52
